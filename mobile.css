@@ -1,0 +1,19 @@
+@import "mobileHeader.css";
+@import "mobileSection.css";
+@import "mobileFooter.css";
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(224, 215, 215);
+}
+
+/* mediaqueries */
+@media (max-width: 767px) {
+  /* mobile first style */
+  .section {
+    grid-area: sc;
+  }
+  .aside {
+    grid-area: sd;
+  }
+}

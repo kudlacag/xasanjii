@@ -1,0 +1,47 @@
+/* footer style */
+.footer {
+  background: linear-gradient(180deg, rgb(124, 82, 5), black);
+  color: white;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(130px, 1fr);
+  grid-template-rows: 150px;
+  justify-content: first baseline;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footerCard > input[type="text"],
+input[type="email"] {
+  display: block;
+  width: 93%;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+.footerCard > .btn-submit {
+  display: block;
+  width: 93%;
+  margin-top: 10px;
+}
+.footer > .links > ul {
+  list-style-type: none;
+}
+.footer > .links > ul > li {
+  margin-top: 5px;
+}
+.footer > .links > ul > li > a {
+  color: white;
+  margin-top: 5px;
+}
+.footer > .links > ul > li > a:hover {
+  color: green;
+  margin-top: 5px;
+}
+.footer > .footer-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}

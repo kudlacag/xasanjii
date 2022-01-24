@@ -1,0 +1,44 @@
+/* section styling */
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(400px, 3fr);
+  grid-auto-rows: minmax(50px, auto);
+  border: 1px solid rgb(231, 224, 224);
+  padding: 20px;
+}
+.card > figure > img {
+  width: 100%;
+  height: auto;
+}
+
+/* btn style */
+.btn {
+  background-color: #293370;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 25%;
+  margin-left: 37px;
+}
+
+.btn-submit {
+  width: 25%;
+  margin-left: 0;
+}
+
+.btn:hover {
+  background-color: #010e66;
+}
+
+/* mobile style aside hide */
+@media (max-width: 767px) {
+  .aside {
+    display: none;
+  }
+}

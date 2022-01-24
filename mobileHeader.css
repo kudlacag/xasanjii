@@ -1,0 +1,38 @@
+/* header styling */
+.header {
+  background: linear-gradient(90deg, black, rgb(124, 82, 5));
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#city {
+  font-weight: bold;
+  color: rgb(0, 0, 150);
+}
+
+.header > ul {
+  list-style-type: none;
+}
+.header > ul > li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.header > ul > li > a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.header > ul > li > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #666;
+  text-decoration-thickness: 5px;
+}
+
+.card > h2 {
+  margin-left: 37px;
+}
